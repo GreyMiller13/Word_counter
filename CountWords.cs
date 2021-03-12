@@ -18,6 +18,10 @@ namespace training_code_C_sharp
                 {
                     temp_str += str[i];
                     switcher = true;
+                    if(i == str.Length - 1)
+                    {
+                        arr_str.Add(temp_str);
+                    }
                 }
                 else
                 {
